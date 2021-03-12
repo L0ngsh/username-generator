@@ -205,7 +205,7 @@ if args.output_file != None:
     # Open file to write
     outputfile = open(args.output_file, 'a')
 
-# Print or write the putput
+# Print or write the output
 for username in usernameList:
     if writeFile == False:
         print(username)
